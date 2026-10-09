@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Wordle Showdown</title>
+  <meta name="description" content="Family Wordle scoreboard: paste your score, crown the winning team.">
+  <meta name="theme-color" content="#121213">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Showdown">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><span class="logo">W</span> Wordle <b>Showdown</b></div>
+    <button id="whoBtn" class="who" type="button"></button>
+  </header>
+
+  <div id="modeBanner" class="banner" hidden></div>
+
+  <main id="app">
+    <p class="loading">Loading…</p>
+  </main>
+
+  <nav class="tabs" id="tabs" hidden>
+    <button data-tab="today" class="active">🏁<span>Today</span></button>
+    <button data-tab="standings">🏆<span>Standings</span></button>
+    <button data-tab="history">📅<span>History</span></button>
+    <button data-tab="settings">⚙️<span>Settings</span></button>
+  </nav>
+
+  <div id="toast" class="toast" hidden></div>
+  <div id="confetti" aria-hidden="true"></div>
+
+  <script src="config.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

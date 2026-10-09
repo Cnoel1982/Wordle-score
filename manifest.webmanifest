@@ -1,0 +1,11 @@
+{
+  "name": "Wordle Showdown",
+  "short_name": "Showdown",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#121213",
+  "theme_color": "#121213",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
