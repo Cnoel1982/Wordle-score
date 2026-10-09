@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Each family's scoreboard lives under families/<family code>.
+    // Anyone who knows the code can read and post, so pick a code that's hard to guess.
+    match /families/{family}/{document=**} {
+      allow read, write: if family.size() >= 8;
+    }
+  }
+}

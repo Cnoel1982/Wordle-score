@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#121213"/>
+  <rect x="56" y="56" width="188" height="188" rx="20" fill="#538d4e"/>
+  <rect x="268" y="56" width="188" height="188" rx="20" fill="#b59f3b"/>
+  <rect x="56" y="268" width="188" height="188" rx="20" fill="#3a3a3c"/>
+  <rect x="268" y="268" width="188" height="188" rx="20" fill="#538d4e"/>
+  <text x="150" y="190" font-family="Arial, sans-serif" font-weight="bold" font-size="140" fill="#fff" text-anchor="middle">W</text>
+  <text x="362" y="402" font-size="130" text-anchor="middle">👑</text>
+</svg>
